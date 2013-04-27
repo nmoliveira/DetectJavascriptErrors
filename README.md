@@ -1,7 +1,7 @@
 DetectJavascriptErrors
 ======================
 
-#####Global event handler for runtime script errors.
+####Global event handler for runtime script errors.
 
 ######How it works:
 
