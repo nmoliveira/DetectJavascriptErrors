@@ -7,7 +7,7 @@ var DetectJavascriptErrors = function() {
     window.onerror = function(message, url, lineNumber) {  
       // handle error as you want
       alert('Javascript Errors Detected!!');
-      return fireDefaultHandler;
+      return stopDefaultHandler;
     }; 
   };
   return {
